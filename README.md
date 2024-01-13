@@ -6,7 +6,7 @@
 ```sh
 require_once('./DualSessionLogger.php'); 
 $db = new PDO('your_db_details_here');
-$DualSessionLogger = new DualSessionLogger($db);
+$DualSessionLogger = new DualSessionLogger($db, 'dual_session_table_name(optional)');
 ```
 ## Now bind this class with to session handler of native PHP
 
