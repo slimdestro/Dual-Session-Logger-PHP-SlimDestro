@@ -2,7 +2,7 @@
 // implements native `SessionHandlerInterface`(open | close | read | write | destroy | gc)
 // Author: Mukul kumar(https://github.com/slimdestro/)
 
-namespace YourNamespace;
+namespace SlimDestro\DualSessionLogger;
 
 use Exception;
 use PDO;
